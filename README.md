@@ -14,6 +14,10 @@ Both versions are written in Python and support custom payloads.
 Crypters are useful for obfuscating or encrypting payloads to bypass antivirus detection.  
 This tool is ideal for red teamers, penetration testers, or researchers who want to test AV evasion techniques and execute payloads with higher stealth — especially in restricted environments.
 
+<p align="center">
+  <img src="demo.gif" alt="Demo">
+</p>
+
 ---
 
 ## 🚀 Usage
@@ -28,5 +32,5 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 
 ### 2. Encrypt your payload
 
-- `python3 scantime/runtime.py payload.exe/.bin`
+- `python.exe scantime/runtime.py payload.exe/.bin`
 
