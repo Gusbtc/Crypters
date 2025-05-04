@@ -28,5 +28,5 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 
 ### 2. Encrypt your payload
 
-- Scantime: `python3 scantime_crypter.py payload.exe`
-- Runtime: `python3 runtime_crypter.py shellcode.bin`
+- Scantime: `python3 scantime.py payload.exe`
+- Runtime: `python3 runtime.py shellcode.bin`
