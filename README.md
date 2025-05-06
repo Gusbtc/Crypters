@@ -25,6 +25,7 @@ This tool is ideal for red teamers, penetration testers, or researchers who want
 ### 1. Install the dependencies
 
 - `pip install pycryptodome`
+- `pip install pyinstaller`
 
 ### 2. Generate your payload
 
